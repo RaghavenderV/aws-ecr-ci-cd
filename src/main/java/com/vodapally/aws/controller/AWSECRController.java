@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class AWSECRController {
     @GetMapping("/hello")
     public String message(){
-        String msg = "Hello! Raghavender Vodapally!! Welcome to AWS world!!"
-                        +"\n Congratulations on my first AWS ECR CI CD project.";
+        String msg = "Hello! Welcome to AWS world!!"
+                +"\n Congratulations Raghavender on your first AWS ECR CI CD project.";
 
         return msg;
     }
