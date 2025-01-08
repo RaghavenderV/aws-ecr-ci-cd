@@ -1,4 +1,5 @@
-FROM openjdk:17
+#FROM openjdk:17
+FROM public.ecr.aws/amazoncorretto/amazoncorretto:17
 # set working directory inside the container
 WORKDIR /app
 # copy jar file into the container
